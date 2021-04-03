@@ -4,6 +4,8 @@
 
 This is a simple tool for converting between strings and ErrorObjects.
 
+This is useful for converting an Error to a string on the client side and sending it to the server.
+
 # How to Use
 
 
