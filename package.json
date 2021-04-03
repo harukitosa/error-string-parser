@@ -11,8 +11,8 @@
     "type": "git",
     "url": "git+https://github.com/harukitosa/error-string-parser.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Haruki Tosa",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/harukitosa/error-string-parser/issues"
   },
