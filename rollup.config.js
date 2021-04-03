@@ -1,4 +1,5 @@
 import typescript from 'rollup-plugin-typescript';
+import { terser } from "rollup-plugin-terser"
 
 export default {
   input: './src/error-string-parser.ts',
@@ -7,6 +8,7 @@ export default {
     format: 'cjs',
   },
   plugins: [
-    typescript()
+    typescript(),
+    terser({ output: { comments: /@license/i } }),
   ]
 }
