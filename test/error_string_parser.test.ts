@@ -1,4 +1,4 @@
-import { decode, encode } from "../src/error-stringify";
+import { decode, encode } from "../src/error-string-parser";
 // const add = require('../src/error-stringify');
 
 test('test encode', () => {
